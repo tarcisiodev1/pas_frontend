@@ -1,42 +1,85 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.navigation {
+  background-color: #ff5733; /* Cor laranja escuro */
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet; /* Cor de fundo para preencher toda a tela */
+}
+/* .app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+} */
+.profile {
+  display: flex;
+  align-items: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.content {
+  padding: 20px;
+  text-align: center; /* Centralizando o conteúdo */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile img {
+  width: 150px; /* Aumentando o tamanho da foto de perfil */
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.buttons {
+  display: flex;
 }
 
-.card {
-  padding: 2em;
+.buttons a {
+  margin-right: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.buttons img {
+  width: 40px; /* Tamanho menor para as logos */
+  height: auto;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center; /* Centralizando o texto dos projetos */
+}
+
+.project h2 {
+  margin-top: 0;
+}
+
+.project p {
+  margin-bottom: 10px;
+}
+
+.project a {
+  display: inline-block; /* Alterando para ficar lado a lado */
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.project a:hover {
+  background-color: #555;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
