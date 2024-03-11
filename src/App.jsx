@@ -26,12 +26,22 @@ function App() {
             <p>
               API para criar e gerenciar sorteios em igrejas em PHP/Laravel.
             </p>
-            <a href="#">Ver projeto</a>
+            <a
+              href="https://github.com/tarcisiodev1/api_raffle_laravel"
+              target="_blank"
+            >
+              Ver projeto
+            </a>
           </div>
           <div className="project">
             <h2>Appointment System CI4</h2>
             <p>Sistema de agendamento desenvolvido em Codeigniter/PHP.</p>
-            <a href="#">Ver projeto</a>
+            <a
+              href="https://github.com/tarcisiodev1/Appointment-System-Ci4"
+              target="_blank"
+            >
+              Ver projeto
+            </a>
           </div>
         </div>
       </div>
