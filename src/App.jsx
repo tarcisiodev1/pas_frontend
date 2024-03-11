@@ -7,20 +7,30 @@ function App() {
     <div className="app">
       <Navigation />
       <div className="content">
-        <h1>Meu Portfólio</h1>
+        <h1 className="title">Meu Portfólio</h1>
         <div className="about-me">
           <h2>Sobre mim:</h2>
-          <p>Adicione aqui uma breve descrição sobre você.</p>
+          <p>
+            Me chamo Tarcísio Santos Júnior, tenho 22 anos e sou desenvolvedor
+            web focado em backend, com experiência em PHP, Laravel, Codeigniter
+            e MySQL. Também trabalho com Docker, PostgreSQL, HTML, CSS, SASS,
+            Bootstrap e Tailwind CSS. Estou constantemente buscando aprender e
+            me atualizar, atualmente estudando PHP/PHPUnit, TDD e buscando
+            aprimorar minhas habilidades. Sou graduando em Análise e
+            Desenvolvimento de Sistemas na UNIT/SE.
+          </p>
         </div>
         <div className="projects">
           <div className="project">
-            <h2>Projeto 1</h2>
-            <p>Descrição do Projeto 1</p>
+            <h2>API de Sorteios para Igrejas</h2>
+            <p>
+              API para criar e gerenciar sorteios em igrejas em PHP/Laravel.
+            </p>
             <a href="#">Ver projeto</a>
           </div>
           <div className="project">
-            <h2>Projeto 2</h2>
-            <p>Descrição do Projeto 2</p>
+            <h2>Appointment System CI4</h2>
+            <p>Sistema de agendamento desenvolvido em Codeigniter/PHP.</p>
             <a href="#">Ver projeto</a>
           </div>
         </div>

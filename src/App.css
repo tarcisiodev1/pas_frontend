@@ -1,5 +1,5 @@
 .navigation {
-  background-color: #ff5733; /* Cor laranja escuro */
+  background-color: #ff6f61;
   color: #fff;
   padding: 20px;
   display: flex;
@@ -7,17 +7,24 @@
   align-items: center;
   border-radius: 20px;
 }
+
 body {
   margin: 0;
   padding: 0;
-  background-color: blueviolet; /* Cor de fundo para preencher toda a tela */
+  background-color: #f4f1de; /* Cor de fundo para preencher toda a tela */
 }
-/* .app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-} */
+
+.title {
+  margin-top: 0; /* Removendo a margem superior padrão */
+  text-align: center; /* Centralizando o título */
+}
+
+.about-me {
+  max-width: 600px; /* Defina o valor adequado para o número desejado de caracteres por linha */
+  margin: 0 auto; /* Centraliza o conteúdo */
+  text-align: justify; /* Justifica o texto */
+}
+
 .profile {
   display: flex;
   align-items: center;
@@ -77,6 +84,7 @@ body {
 .project a:hover {
   background-color: #555;
 }
+
 .projects {
   display: flex;
   flex-direction: column;

@@ -8,6 +8,11 @@
   border-top-left-radius: 20px; /* Arredondando o canto superior esquerdo */
   border-top-right-radius: 20px; /* Arredondando o canto superior direito */
 }
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .profile {
   display: flex;
