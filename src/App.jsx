@@ -22,6 +22,22 @@ function App() {
         </div>
         <div className="projects">
           <div className="project">
+            <h2>Portifólio em React</h2>
+            <p>
+              Portifólio de alguns projetos feitos por mim e algumas das minhas
+              habilidades como desenvolvedor.
+            </p>
+            <p>
+              <a href="http://">Link para apresentação para o projeto</a>
+            </p>
+            <a
+              href="https://github.com/tarcisiodev1/api_raffle_laravel"
+              target="_blank"
+            >
+              Ver projeto
+            </a>
+          </div>
+          <div className="project">
             <h2>API de Sorteios para Igrejas</h2>
             <p>
               API para criar e gerenciar sorteios em igrejas em PHP/Laravel.
