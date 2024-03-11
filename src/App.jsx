@@ -28,7 +28,7 @@ function App() {
               habilidades como desenvolvedor.
             </p>
             <p>
-              <a href="http://">Link para apresentação para o projeto</a>
+              <a href="http://">Link apresentação</a>
             </p>
             <a
               href="https://github.com/tarcisiodev1/api_raffle_laravel"
